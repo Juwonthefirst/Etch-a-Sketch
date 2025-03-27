@@ -34,5 +34,6 @@ const createGrid = function (tile_number = 16){
         grid.appendChild(column_div)
     }
 }
+
 button.addEventListener('click', change_size)
 createGrid()
